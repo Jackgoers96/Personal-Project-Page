@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+    font-family: 'Playfair Display', Serif;
+}
+header {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color:cyan;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: bottom;
+    justify-content: space-between;
+    
+
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 2%;
+    padding: 2%;
+    align-items: center;
+}
+
+.headerLinks {
+    width: 30%;
+    Font-family: 'Playfair Display', Serif;
+    font-weight: bold;
+    font-size: 150%;
+    color: yellowgreen;
+    margin: 2%;
+    margin-right: 5%;       
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+
+.headerLinks a {
+    display: none;
+    text-decoration: none;
+    font-family: 'Playfair Display','Serif';
+    color:#000;
+  }
+  
+  .headerLinks:hover a{
+    display: block;
+    background-color: rebeccapurple;
+    color: yellowgreen;
+    margin-left: 0;
+    margin-top: 150px;
+    z-index: 999999999;
+
+
+  }
