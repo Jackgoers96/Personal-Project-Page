@@ -22,35 +22,29 @@ h1 {
     align-items: center;
 }
 
-.headerLinks {
-    width: 30%;
-    Font-family: 'Playfair Display', Serif;
-    font-weight: bold;
-    font-size: 150%;
-    color: yellowgreen;
-    margin: 2%;
-    margin-right: 5%;       
-    padding: 2%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
+nav {
+  width: 300px;
+  padding:10px;
+  margin: auto;
 }
 
 
-.headerLinks a {
+nav a {
+    width:200px;
+    padding:10px;
+    border: 2px solid black;
     display: none;
     text-decoration: none;
-    font-family: 'Playfair Display','Serif';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     color:#000;
+    margin:10px;
   }
   
-  .headerLinks:hover a{
+  nav:hover a {
     display: block;
-    background-color: rebeccapurple;
-    color: yellowgreen;
-    margin-left: 0;
-    margin-top: 150px;
-    z-index: 999999999;
+  background-color: aquamarine;
+  color:blue
 
 
   }
