@@ -2,17 +2,19 @@ body {
     font-size: 16px;
     font-family: 'Playfair Display', Serif;
 }
+
 header {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    color:cyan;
-    background-color: rebeccapurple;
-    display: flex;
-    align-items: bottom;
+    color:burlywood;
+    background-color: rgb(130, 40, 15);
+    display: flex;   
     justify-content: space-between;
-    
+    margin-top: 0;
 
+    
 }
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -23,28 +25,117 @@ h1 {
 }
 
 nav {
-  width: 300px;
+  width: 20%;
   padding:10px;
-  margin: auto;
-}
+  font-size: 150%;
+  z-index: 1;
+  justify-self: right;
+  align-self: center;
 
+}
+  
+  
+  
+  #home {
+    width: 2%;
+    margin: 0 10%;
+    color: #13293d;
+    background-color: inherit;
+    border:none;
+    display:contents;
+    font-family: 'Fairplay Display', 'serif';
+    justify-content: center;
+    align-content: center;
+
+  }
 
 nav a {
-    width:200px;
-    padding:10px;
-    border: 2px solid black;
-    display: none;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color:#000;
-    margin:10px;
-  }
   
+  display: none;
+  text-decoration: none;
+  font-family: 'Fairplay Display', 'serif';
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color:#000;
+  z-index: 99999;
+  font-size: 100%;
+  float: left;
+  width: 35%;
+  padding:5px;
+  margin:0;
+
+
+}
+
   nav:hover a {
     display: block;
-  background-color: aquamarine;
-  color:blue
+    position: relative;
+    font-size: 50%;
+    
+  }
 
+
+  #about {
+    width: 2%;
+    margin: 0 10%;
+    color: #13293d;
+    background-color: inherit;
+    border:none;
+    display:contents;
+    font-family: 'Fairplay Display', 'serif';
+    justify-content: center;
+    align-content: center;
+
+  }
+
+
+  #contact {
+    width: 2%;
+    margin: 0 10%;
+    color: #13293d;
+    background-color: inherit;
+    border:none;
+    display:contents;
+    font-family: 'Fairplay Display', 'serif';
+    justify-content: center;
+    align-content: center;
+  }
+
+  #resources {
+    width: 2%;
+    margin: 0 10%;
+    color: #13293d;
+    background-color: inherit;
+    border:none;
+    display:contents;
+    font-family: 'Fairplay Display', 'serif';
+    justify-content: center;
+    align-content: center;
+  }
+
+  /* The user's cursor is positioned over the element */
+  button:hover {
+    background-color: hsl(7, 71%, 27%);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* The user is actively pressing down on the element */
+  button:active {
+    font-size: 90%;
+  }
+  
+  button {
+    width: 2%;
+    margin: 0 10%;
+    color: #13293d;
+    background-color: inherit;
+    border:none;
+    display:contents;
+    font-family: 'Fairplay Display', 'serif';
+    justify-content: center;
+    align-content: center;
+    font-size: 100%;
 
   }
