@@ -1,3 +1,7 @@
+:root {
+  --textBack-color: rgb(110, 62, 22);
+}
+
 body {
     font-size: 16px;
     font-family: 'Playfair Display', Serif;
@@ -18,7 +22,7 @@ header {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 250%;
     margin: 2%;
     padding: 2%;
     align-items: center;
@@ -40,8 +44,8 @@ nav {
 .dropbtn {
   background-color:inherit;
   color:inherit;
-  padding: 16px;
-  font-size: 150%;
+  padding: 10%;
+  font-size: 250%;
   border: none;
 }
 
@@ -70,10 +74,56 @@ nav {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: pink;}
+.dropdown-content a:hover {background-color: var(--textBack-color)}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgb(110, 62, 22);}
+.dropdown:hover .dropbtn {background-color: var(--textBack-color);}
+
+h3 {
+  display: flex;
+  border-width:25%;
+  border-radius: 15px;
+  border: solid 5px;
+  border-color: var(--textBack-color);
+  align-content: right;
+  text-align: center;
+  margin-left:30%;
+  margin-right:1px;
+  margin-top:0;
+  margin-bottom: 10px;
+  height: 780px;
+  position: relative;
+
+}
+
+#work {
+margin-top:0;
+
+
+} 
+
+#about {
+
+}
+
+#contact {
+  
+    display: flex;
+    border-width:25%;
+    border-radius: 15px;
+    border: solid 5px;
+    border-color: var(--textBack-color);
+    align-content: right;
+    text-align: center;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:0;
+    margin-bottom: 10px;
+    height: 150px;
+    position: relative;
+  
+  }
+
