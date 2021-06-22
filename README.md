@@ -1,2 +1,2 @@
-# Personal-Project-Page
-My First Website- Toying with HTML and beyond
+# jack Goers | Portfolio
+My First Website- Toying with HTML and CSS while building my portfolio
