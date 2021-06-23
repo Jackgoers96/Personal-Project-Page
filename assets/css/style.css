@@ -82,48 +82,89 @@ nav {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: var(--textBack-color);}
 
+
+content {
+  display: inline-block;
+  position: absolute;
+  margin-left: 25%;
+  margin-top:0;
+  width: 74%;
+  font-family: 'Playfair Display', Serif;
+}
+
+article {
+  display: inline-block;
+  position: absolute;
+  margin-left:20%;
+  margin-top:12%;
+  font-family: 'Playfair Display', Serif;
+
+}
 h3 {
-  display: flex;
+display: block; 
+
+height: 780px;
+
+}
+
+h4 {
+  display: block;
   border-width:25%;
   border-radius: 15px;
   border: solid 5px;
   border-color: var(--textBack-color);
-  align-content: right;
-  text-align: center;
-  margin-left:30%;
-  margin-right:1px;
-  margin-top:0;
+  margin-top:15px;
   margin-bottom: 10px;
   height: 780px;
-  position: relative;
+ 
 
 }
 
 #work {
-margin-top:0;
 
-
-} 
+}
 
 #about {
 
 }
 
-#contact {
+#work2 {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+
+
+
+} 
+
+#about2 {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+
+}
+
+footer {
   
     display: flex;
     border-width:25%;
     border-radius: 15px;
     border: solid 5px;
     border-color: var(--textBack-color);
-    align-content: right;
+    align-content: center;
     text-align: center;
     margin-left:2%;
     margin-right:2%;
-    margin-top:0;
-    margin-bottom: 10px;
+    margin-top:90%;
+    margin-bottom: 2%;
     height: 150px;
-    position: relative;
-  
+    width: 96%;
+    position: absolute;
+    justify-content: space-evenly;
   }
 
+#contact {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+}
