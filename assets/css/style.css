@@ -5,12 +5,14 @@
 body {
     font-size: 16px;
     font-family: 'Playfair Display', Serif;
+    background-image: linear-gradient(to right, rgb(155, 225, 255), grey);
+
 }
 
 header {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    color:burlywood;
+    color: burlywood;
     background-color: rgb(130, 40, 15);
     display: flex;   
     justify-content: space-between;
@@ -82,67 +84,47 @@ nav {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: var(--textBack-color);}
 
-
 content {
-  display: inline-block;
-  position: absolute;
-  margin-left: 25%;
-  margin-top:0;
-  width: 74%;
-  font-family: 'Playfair Display', Serif;
+  display:flex;
+  flex-direction: column;
+
+
 }
 
 article {
-  display: inline-block;
-  position: absolute;
-  margin-left:20%;
-  margin-top:12%;
-  font-family: 'Playfair Display', Serif;
-
-}
-h3 {
-display: block; 
-
-height: 780px;
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  justify-content: center;
+  margin-right: 0px;
+  position: relative;
 
 }
 
-h4 {
-  display: block;
-  border-width:25%;
-  border-radius: 15px;
-  border: solid 5px;
-  border-color: var(--textBack-color);
-  margin-top:15px;
-  margin-bottom: 10px;
-  height: 780px;
- 
+h2 {
+  display: flex;
+  font-size: 250%;
+  margin: 10%;
+  padding: 2%;
+  margin-top: 30%;
+
 
 }
 
-#work {
+main {
+  display:flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  position:relative
+}
+main a {
+  display: flex;
+  width:500px;
+  height:475px;
 
 }
 
-#about {
-
-}
-
-#work2 {
-  font-size: 200%;
-  font-weight: bold;
-  font-family: 'Playfair Display', Serif;
-
-
-
-} 
-
-#about2 {
-  font-size: 200%;
-  font-weight: bold;
-  font-family: 'Playfair Display', Serif;
-
-}
 
 footer {
   
@@ -151,16 +133,15 @@ footer {
     border-radius: 15px;
     border: solid 5px;
     border-color: var(--textBack-color);
-    align-content: center;
-    text-align: center;
     margin-left:2%;
     margin-right:2%;
     margin-top:90%;
-    margin-bottom: 2%;
+    margin-bottom: 5px;
     height: 150px;
     width: 96%;
-    position: absolute;
+    position: relative;
     justify-content: space-evenly;
+    align-content: center;
   }
 
 #contact {
