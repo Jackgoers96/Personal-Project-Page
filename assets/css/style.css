@@ -4,9 +4,13 @@
 
 body {
     font-size: 16px;
+    font-size: 1vw;
     font-family: 'Playfair Display', Serif;
     background-image: linear-gradient(to right, rgb(155, 225, 255), grey);
     color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    font-size: 1vw;
+
 
 }
 
@@ -18,6 +22,7 @@ header {
     display: flex;   
     justify-content: space-between;
     margin-top: 0;
+    font-size: 1vw;
 
     
 }
@@ -100,8 +105,6 @@ nav {
 content {
   display:flex;
   flex-direction: column;
-
-
 }
 
 section {
@@ -113,11 +116,13 @@ section {
   align-self: center;
   justify-content: space-between;
   font-family: 'Playfair Display', Serif;
+
 }
 p {
   font-size:16px;
   font-family: 'Playfair Display', Serif;
   color:black;
+  font-size: 1vw;
 }
 
 section a {
@@ -132,12 +137,13 @@ img {
 }
 
 h2 {
+  display: flex;
   width: 15%;
   font-size: 250%;
-  border-right: 6px solid black;
+  border-right: 5px solid black;
   height: auto;
   font-family: 'Playfair Display', Serif;
-
+  flex-wrap: wrap;
 }
 
 
@@ -147,11 +153,14 @@ footer {
   flex-direction:row;
   height: 15%;
   width:60%;
-  margin:2%;
+  margin:3%;
   align-self: center;
   justify-content: space-between;
   font-family: 'Playfair Display', Serif;
+
+
   }
+
 footer a {
   color: black;
   font-weight: bold;
