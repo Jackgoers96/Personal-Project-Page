@@ -1,11 +1,12 @@
 :root {
-  --textBack-color: rgb(110, 62, 22);
+  --textBack-color: rgb(89, 92, 102);
 }
 
 body {
     font-size: 16px;
     font-family: 'Playfair Display', Serif;
     background-image: linear-gradient(to right, rgb(155, 225, 255), grey);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -13,7 +14,7 @@ header {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: burlywood;
-    background-color: rgb(130, 40, 15);
+    background-color: rgb(45, 86, 105);
     display: flex;   
     justify-content: space-between;
     margin-top: 0;
@@ -39,7 +40,19 @@ nav {
   align-self: center;
 
 }
+#headerBreak {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+#headerBreak img {
+  max-height: 350px;
+  width: 90%;
+  align-self:center;
 
+
+
+}
 
 
 /* Dropdown Button */
@@ -61,7 +74,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #383838;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -91,61 +104,60 @@ content {
 
 }
 
-article {
+section {
   display: flex;
-  flex-direction: column;
-  width:30%;
-  justify-content: center;
-  margin-right: 0px;
-  position: relative;
+  flex-direction:row;
+  height: 15%;
+  width:60%;
+  margin:2%;
+  align-self: center;
+  justify-content: space-between;
+  font-family: 'Playfair Display', Serif;
+}
+p {
+  font-size:16px;
+  font-family: 'Playfair Display', Serif;
+  color:black;
+}
+
+section a {
+  width:680px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 
 }
 
 h2 {
-  display: flex;
+  width: 15%;
   font-size: 250%;
-  margin: 10%;
-  padding: 2%;
-  margin-top: 30%;
-
-
-}
-
-main {
-  display:flex;
-  flex-direction: row;
-
-  flex-wrap: wrap;
-  position:relative
-}
-main a {
-  display: flex;
-  width:500px;
-  height:475px;
+  border-right: 6px solid black;
+  height: auto;
+  font-family: 'Playfair Display', Serif;
 
 }
 
 
 footer {
   
-    display: flex;
-    border-width:25%;
-    border-radius: 15px;
-    border: solid 5px;
-    border-color: var(--textBack-color);
-    margin-left:2%;
-    margin-right:2%;
-    margin-top:90%;
-    margin-bottom: 5px;
-    height: 150px;
-    width: 96%;
-    position: relative;
-    justify-content: space-evenly;
-    align-content: center;
-  }
-
-#contact {
-  font-size: 200%;
-  font-weight: bold;
+  display: flex;
+  flex-direction:row;
+  height: 15%;
+  width:60%;
+  margin:2%;
+  align-self: center;
+  justify-content: space-between;
   font-family: 'Playfair Display', Serif;
+  }
+footer a {
+  color: black;
+  font-weight: bold;
+  font-size:175%;
+  font-family: 'Playfair Display', Serif;
+  padding:5%;
+
+
 }
