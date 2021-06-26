@@ -10,6 +10,7 @@ body {
     color: rgb(0, 0, 0);
     flex-wrap: wrap;
     font-size: 1vw;
+    font-size: 2vh;
 
 
 }
@@ -22,8 +23,6 @@ header {
     display: flex;   
     justify-content: space-between;
     margin-top: 0;
-    font-size: 1vw;
-
     
 }
 
@@ -54,12 +53,7 @@ nav {
   max-height: 350px;
   width: 90%;
   align-self:center;
-
-
-
 }
-
-
 /* Dropdown Button */
 .dropbtn {
   background-color:inherit;
@@ -111,11 +105,13 @@ section {
   display: flex;
   flex-direction:row;
   height: 15%;
-  width:60%;
-  margin:2%;
+  width:100%;
+  margin:3%;
   align-self: center;
   justify-content: space-between;
   font-family: 'Playfair Display', Serif;
+  padding: 1%;
+ 
 
 }
 p {
@@ -123,11 +119,23 @@ p {
   font-family: 'Playfair Display', Serif;
   color:black;
   font-size: 1vw;
+  flex-wrap: wrap;
+  max-width: 75%;
+  padding:1%;
+  font-weight: bold;
 }
 
 section a {
   width:680px;
   height: auto;
+  justify-self: flex-start;
+}
+ .mini a {
+    width:50%;
+    height: auto;
+    flex-direction: column;
+    padding: 1%;
+ 
 }
 
 img {
@@ -138,12 +146,15 @@ img {
 
 h2 {
   display: flex;
-  width: 15%;
-  font-size: 250%;
+  width: 20%;
+  font-size: 200%;
   border-right: 5px solid black;
   height: auto;
   font-family: 'Playfair Display', Serif;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
 }
 
 
@@ -152,19 +163,17 @@ footer {
   display: flex;
   flex-direction:row;
   height: 15%;
-  width:60%;
+  width:100%;
   margin:3%;
   align-self: center;
   justify-content: space-between;
   font-family: 'Playfair Display', Serif;
-
-
   }
 
 footer a {
   color: black;
   font-weight: bold;
-  font-size:175%;
+  font-size:150%;
   font-family: 'Playfair Display', Serif;
   padding:5%;
 
