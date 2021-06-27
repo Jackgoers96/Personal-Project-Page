@@ -6,17 +6,27 @@
 ​
 This profile page will serve as my collction space for upcoming projects.
 ​
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-​
 md
-![Project sample ](assets/images/screenshot.png)
-```
+![Project sample ](assets/images/sample.png)
+
+![portfolio demo](./assets/headerSample.gif)
+![portfolio demo2](./assets/bodySample.gif)
 ​
 ​
 ## Credits
 ​
-List your collaborators, if any, with links to their GitHub profiles.
+All work done by me. 
+Images origin links:
+-https://www.pexels.com/photo/matrix-background-1089438/
+-https://www.pexels.com/photo/apps-blur-button-close-up-267350/
+-https://pixabay.com/photos/computer-screen-coding-1209641/
+
+Guinea pig image by my Wife, Kayla Snyder
+
 ​
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Images origin links:
+-https://www.pexels.com/photo/matrix-background-1089438/
+-https://www.pexels.com/photo/apps-blur-button-close-up-267350/
+-https://pixabay.com/photos/computer-screen-coding-1209641/
+-https://img.freepik.com/free-vector/digital-technology-particle-wide-banner-with-light-effect_1017-26317.jpg?size=626&ext=jpg&ga=GA1.2.1005813686.1613606400
 ​
-If you followed tutorials, include links to those here as well.
