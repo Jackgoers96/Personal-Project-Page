@@ -9,8 +9,8 @@ This profile page will serve as my collction space for upcoming projects.
 md
 ![Project sample ](assets/images/sample.png)
 
-![portfolio demo](./assets/headerSample.gif)
-![portfolio demo2](./assets/bodySample.gif)
+![portfolio demo](./assets/images/headerSample.gif)
+![portfolio demo2](./assets/images/bodySample.gif)
 ​
 ​
 ## Credits
