@@ -272,8 +272,7 @@ h2 {
   }
 
 .footer {
-  background: var(--textBack-color);
-  color: burlywood;
+  background-image: linear-gradient(to right, rgb(155, 225, 255), grey);;
   text-align: center;
   padding: 1em;
   font-size: 80%;
@@ -291,4 +290,8 @@ h2 {
   .photo-box-thin {
       height: 250px;
   }
+}
+
+.text-box-subhead {
+color: white
 }
