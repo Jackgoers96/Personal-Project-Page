@@ -1,0 +1,17 @@
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+p {
+  justify-self: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: larger;
+  font-family: "Playfair Display", serif;
+}
